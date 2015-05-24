@@ -1,0 +1,3 @@
+[submodule "extensions/debugdevkit"]
+	path = extensions/debugdevkit
+	url = https://github.com/symphonycms/debugdevkit.git

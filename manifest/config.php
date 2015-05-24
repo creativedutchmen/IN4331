@@ -11,12 +11,12 @@
 
 		###### SYMPHONY ######
 		'symphony' => array(
-			'admin-path' => 'symphony',
+			'admin-path' => 'admin',
 			'pagination_maximum_rows' => '20',
 			'association_maximum_rows' => '5',
 			'lang' => 'en',
 			'pages_table_nest_children' => 'no',
-			'version' => VERSION,
+			'version' => '2.6.2',
 			'cookie_prefix' => 'sym-',
 			'session_gc_divisor' => '10',
 			'cell_truncation_length' => '75',
@@ -37,12 +37,12 @@
 		'database' => array(
 			'host' => 'localhost',
 			'port' => '3306',
-			'user' => null,
-			'password' => null,
-			'db' => null,
+			'user' => '771207563ff0',
+			'password' => 'fa18d43a2d439926',
+			'db' => 'getting_started',
 			'tbl_prefix' => 'sym_',
 			'query_caching' => 'on',
-			'query_logging' => 'on'
+			'query_logging' => 'on',
 		),
 		########
 
@@ -56,8 +56,8 @@
 
 		###### GENERAL ######
 		'general' => array(
-			'sitename' => 'Symphony CMS',
-			'useragent' => 'Symphony/' . VERSION,
+			'sitename' => 'Getting started',
+			'useragent' => 'Symphony/2.6.2',
 		),
 		########
 
@@ -78,15 +78,15 @@
 
 		###### REGION ######
 		'region' => array(
-			'time_format' => 'g:i a',
+			'time_format' => 'H:i',
 			'date_format' => 'm/d/Y',
 			'datetime_separator' => ' ',
-			'timezone' => null
+			'timezone' => 'Europe/Amsterdam',
 		),
 		########
 
 
-		###### CACHE ######
+		###### CACHE_DRIVER ######
 		'cache_driver' => array(
 			'default' => 'database',
 		),

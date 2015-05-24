@@ -1,0 +1,79 @@
+============================================
+Log Created: 2015-05-24T11:55:39+00:00
+============================================
+Symphony Log
+Opened:  2015-05-24T11:55:39+00:00
+Version: 2.6.2
+Domain:  in4331.huibkeemink.nl/getting_started
+--------------------------------------------
+05/24/2015 14:07 > UNKNOWN: SymphonyErrorPage 0 - Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 19 element input
+Line: 171 - XSLTProcessor::transformToXml(): Variable 'keywords' has not been declared.
+Line: 171 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 19 element input
+Line: 171 - XSLTProcessor::transformToXml(): Internal error: Failed to evaluate the AVT of attribute 'value'. on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 14:19 > User Notice: FrontendPageNotFoundException 1024 - The page you requested, <code>/search/</code>, does not exist. on line 334 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/toolkit/class.frontendpage.php
+05/24/2015 15:01 > UNKNOWN: SymphonyErrorPage 0 - Line: 157 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl"
+Line: 157 - XSLTProcessor::importStylesheet(): compilation error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/ line 1 element import
+Line: 157 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl
+Line: 171 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 15:01 > UNKNOWN: SymphonyErrorPage 0 - Line: 157 - XSLTProcessor::importStylesheet(): Invalid predicate
+Line: 157 - XSLTProcessor::importStylesheet(): compilation error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 62 element apply-templates
+Line: 157 - XSLTProcessor::importStylesheet(): XSLT-apply-templates: could not compile select expression '/data/movies/movies/movie[contains(title, $keywords) or year=$keywords or contains(genre, $keywords)'
+Line: 171 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:17 > UNKNOWN: SymphonyErrorPage 0 - Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 60 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Variable 'url-director' has not been declared.
+Line: 171 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
+Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 60 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Failed to evaluate the 'select' expression. on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:17 > UNKNOWN: SymphonyErrorPage 0 - Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 61 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Variable 'url-director' has not been declared.
+Line: 171 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
+Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 61 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Failed to evaluate the 'select' expression. on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:18 > UNKNOWN: SymphonyErrorPage 0 - Line: 157 - XSLTProcessor::importStylesheet(): Invalid expression
+Line: 157 - XSLTProcessor::importStylesheet(): compilation error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 58 element apply-templates
+Line: 157 - XSLTProcessor::importStylesheet(): XSLT-apply-templates: could not compile select expression '/data/movies/movie[director/@id = $director]]'
+Line: 171 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:25 > UNKNOWN: SymphonyErrorPage 0 - Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 56 element if
+Line: 171 - XSLTProcessor::transformToXml(): Variable 'year' has not been declared. on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:32 > UNKNOWN: SymphonyErrorPage 0 - Line: 157 - XSLTProcessor::importStylesheet(): I/O warning : failed to load external entity "/srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl"
+Line: 157 - XSLTProcessor::importStylesheet(): compilation error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/ line 1 element import
+Line: 157 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl
+Line: 171 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:33 > UNKNOWN: SymphonyErrorPage 0 - Line: 157 - XSLTProcessor::importStylesheet(): compilation error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 68 element when
+Line: 157 - XSLTProcessor::importStylesheet(): element when is not allowed within that context
+Line: 171 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:51 > UNKNOWN: SymphonyErrorPage 0 - Line: 157 - XSLTProcessor::importStylesheet(): Invalid expression
+Line: 157 - XSLTProcessor::importStylesheet(): compilation error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 140 element apply-templates
+Line: 157 - XSLTProcessor::importStylesheet(): XSLT-apply-templates: could not compile select expression '.[@id = current()/actor/@id]'
+Line: 171 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:51 > UNKNOWN: SymphonyErrorPage 0 - Line: 157 - XSLTProcessor::importStylesheet(): Invalid expression
+Line: 157 - XSLTProcessor::importStylesheet(): compilation error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 140 element apply-templates
+Line: 157 - XSLTProcessor::importStylesheet(): XSLT-apply-templates: could not compile select expression '.[@id = current()/actor/@id]'
+Line: 171 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 17:53 > User Notice: FrontendPageNotFoundException 1024 - The page you requested, <code>/movie/Heat/</code>, does not exist. on line 334 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/toolkit/class.frontendpage.php
+05/24/2015 17:53 > User Notice: FrontendPageNotFoundException 1024 - The page you requested, <code>/movie/A History of Violence/</code>, does not exist. on line 334 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/toolkit/class.frontendpage.php
+05/24/2015 17:54 > User Notice: FrontendPageNotFoundException 1024 - The page you requested, <code>/movie/A History of Violence/</code>, does not exist. on line 334 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/toolkit/class.frontendpage.php
+05/24/2015 18:15 > UNKNOWN: SymphonyErrorPage 0 - Line: 157 - XSLTProcessor::importStylesheet(): compilation error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/home.xsl line 12 element import
+Line: 157 - XSLTProcessor::importStylesheet(): xsltParseStylesheetTop: ignoring misplaced import element
+Line: 171 - XSLTProcessor::transformToXml(): No stylesheet associated to this object on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 18:20 > UNKNOWN: SymphonyErrorPage 0 - Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/movie.xsl line 10 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Variable 'title' has not been declared.
+Line: 171 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
+Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/movie.xsl line 10 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Failed to evaluate the 'select' expression. on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 18:20 > UNKNOWN: SymphonyErrorPage 0 - Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/movie.xsl line 10 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Variable 'title' has not been declared.
+Line: 171 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
+Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/movie.xsl line 10 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Failed to evaluate the 'select' expression. on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 18:20 > UNKNOWN: SymphonyErrorPage 0 - Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/movie.xsl line 10 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Variable 'title' has not been declared.
+Line: 171 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
+Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/movie.xsl line 10 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Failed to evaluate the 'select' expression. on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
+05/24/2015 18:20 > UNKNOWN: SymphonyErrorPage 0 - Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/movie.xsl line 10 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Variable 'title' has not been declared.
+Line: 171 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: 2 objects left on the stack.
+Line: 171 - XSLTProcessor::transformToXml(): runtime error: file /srv/users/creativedutchmen/apps/in4331/public/getting_started/workspace/pages/movie.xsl line 10 element apply-templates
+Line: 171 - XSLTProcessor::transformToXml(): Failed to evaluate the 'select' expression. on line 655 of /srv/users/creativedutchmen/apps/in4331/public/getting_started/symphony/lib/core/class.symphony.php
